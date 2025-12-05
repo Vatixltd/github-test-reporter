@@ -426,6 +426,7 @@ class TestReporter {
             }, shortSummary);
             core.info('Summary content:');
             core.info(summary);
+            core.setOutput('summary', summary);
             await core.summary.addRaw(summary).write();
         }
         else {

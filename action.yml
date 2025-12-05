@@ -120,6 +120,8 @@ outputs:
     description: Check run URL
   url_html:
     description: Check run URL HTML
+  summary:
+    description: Summary
 runs:
   using: 'node20'
   main: 'dist/index.js'
